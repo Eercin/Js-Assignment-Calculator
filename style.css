@@ -1,6 +1,6 @@
 html {
     text-align: center;
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 #calc-main {
@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
@@ -63,7 +63,7 @@ button {
 
 .equals {
     grid-column: span 4;
-    background-color: #FF8F1F;
+    background-color: #ffce1f;
 }
 
 .equals:active {
@@ -108,4 +108,8 @@ button {
 
 .percent:active {
     background-color: rgb(123, 189, 255);
+}
+
+.backspace:active {
+    background-color: gray;
 }
